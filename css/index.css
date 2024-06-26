@@ -6,7 +6,7 @@
 
 body,
 html {
-  font-size: 16px;
+  font-size: 14px;
   word-break: keep-all;
   font-family: Pretendard, -apple-system;
   letter-spacing: -0.3px;
@@ -36,42 +36,15 @@ body::before {
 section {
   padding: 0.2rem;
 }
-
+p {
+  font-size: 1.3rem;
+  text-align: justify;
+  margin-top: 0.8rem;
+  margin-bottom: 1.5rem;
+}
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   line-height: 1.1;
-}
-
-hr {
-  box-sizing: border-box;
-  height: 0;
-  overflow: visible;
-}
-
-.period-mark {
-  color: #03c75a;
-}
-
-.big-paragraph {
-  font-size: 2rem;
-  line-height: 1.4;
-  font-weight: 500;
-}
-.row {
-  display: flex;
-}
-.row-left {
-  border-right: 1px solid #03c75a;
-  flex-basis: 15rem;
-}
-.row-right {
-  padding-left: 3rem;
-}
-
-.role,
-.time {
-  margin-top: 1rem;
-  display: block;
 }
 
 h2 {
@@ -81,5 +54,49 @@ h2 {
 h3,
 h4 {
   font-size: 2rem;
-  display: inline;
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+h5 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.1rem;
+}
+
+hr {
+  box-sizing: border-box;
+  height: 0;
+  overflow: visible;
+  margin-top: 50px;
+}
+
+.period-mark {
+  color: #03c75a;
+}
+
+.big-paragraph {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+.row {
+  display: flex;
+  margin-bottom: 100px;
+}
+.row-left {
+  flex-basis: 15rem;
+}
+.row-right {
+  padding-left: 3rem;
+}
+
+.role,
+.time {
+  display: block;
+}
+
+section {
+  border-bottom: 1px solid #03c75a;
+  padding-bottom: 50px;
 }
